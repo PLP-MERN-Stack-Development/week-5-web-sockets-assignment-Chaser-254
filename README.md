@@ -2,7 +2,7 @@ ChatRoom
 
 A real-time, multi-user chat application built with **React**, **Socket.IO**, and **Node.js**.  
 Users can join the chatroom, see who’s online, send messages, see typing indicators, react to messages, and log out.
-
+```
 chat/
 ├── client/                 # React front-end
 │   ├── public/             # Static files
@@ -18,6 +18,7 @@ chat/
 │   ├── server.js           # Main server file
 │   └── package.json        # Server dependencies
 └── README.md               # Project documentation
+```
 ## Setup & Run
 
 ### Clone the repo
