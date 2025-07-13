@@ -84,7 +84,7 @@ const ChatRoom = () => {
 
        
         <div className="flex-1 flex flex-col">
-          {/* Messages */}
+        
           <div className="flex-1 overflow-y-auto p-2 md:p-4 space-y-2 bg-white">
             {messages.map((msg) => (
               <div key={msg.id} className="group">
@@ -122,7 +122,6 @@ const ChatRoom = () => {
             <div ref={messagesEndRef} />
           </div>
 
-          {/* Typing indicator */}
           {typingUsers.filter(u => u !== username).length > 0 && (
             <div className="px-4 text-sm text-gray-500 bg-gray-50 border-t">
               {typingUsers
@@ -132,7 +131,7 @@ const ChatRoom = () => {
             </div>
           )}
 
-          {/* Input */}
+   
           <form
             onSubmit={handleSubmit}
             className="p-2 md:p-4 border-t flex gap-2 bg-white"
