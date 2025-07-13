@@ -1,4 +1,4 @@
-ChatRoom
+Baraza ChatRoom
 
 A real-time, multi-user chat application built with **React**, **Socket.IO**, and **Node.js**.  
 Users can join the chatroom, see who’s online, send messages, see typing indicators, react to messages, and log out.
